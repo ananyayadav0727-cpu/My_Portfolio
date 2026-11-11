@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anya | Personal Portfolio</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <header>
+        <nav>
+            <a href="#home" class="logo">Anya.</a>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+
+    <main>
+
+        
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p>Hello, welcome to my portfolio!</p>
+
+                <h1>Hi, I'm Anya.</h1>
+
+                <h2>Computer Science Student</h2>
+
+                <p>
+                    I'm exploring technology, coding
+                    and creative development.
+                </p>
+
+                <a href="#about" class="btn">
+                    Explore More
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="data:image/jpeg;base64,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"
+                     alt="Anya's Profile Photo">
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hi! I'm Anya, a Computer Science student
+                interested in technology and creativity.
+
+                I enjoy learning new things, exploring
+                programming and developing my skills.
+            </p>
+
+        </section>
+
+
+        
+        <section id="education">
+
+            <h2>My Education</h2>
+
+            <div class="education-card">
+
+                <h3>College</h3>
+
+                <p>College Name</p>
+
+                <p>Computer Science and Engineering</p>
+
+                <p>Academic Year: 2026 onwards</p>
+
+            </div>
+
+            <div class="education-card">
+
+                <h3>School</h3>
+
+                <p>School Name</p>
+
+                <p>Higher Secondary Education</p>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <div class="skill-card">
+
+                <h3>HTML</h3>
+                <p>Learning web development</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>CSS</h3>
+                <p>Learning web design</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>JavaScript</h3>
+                <p>Exploring programming</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Communication</h3>
+                <p>Teamwork and collaboration</p>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    My first personal website built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <p>
+                    Technologies: HTML, CSS, JavaScript
+                </p>
+
+                <a href="#projects" class="btn">
+                    View Details
+                </a>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="hobbies">
+
+            <h2>My Hobbies & Interests</h2>
+
+            <div class="hobby-card">
+
+                <h3>Photography</h3>
+
+                <p>
+                    Capturing moments and exploring creativity.
+                </p>
+
+            </div>
+
+            <div class="hobby-card">
+
+                <h3>Video Editing</h3>
+
+                <p>
+                    Exploring storytelling through video edits.
+                </p>
+
+            </div>
+
+            <div class="hobby-card">
+
+                <h3>Music</h3>
+
+                <p>
+                    Enjoying music and discovering new artists.
+                </p>
+
+            </div>
+
+        </section>
+
+
+       
+        <section id="achievements">
+
+            <h2>My Achievements</h2>
+
+            <div class="achievement-card">
+
+                <h3>Certificates & Workshops</h3>
+
+                <p>
+                    My certificates, workshops and achievements
+                    will be displayed here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>Email: your-email@example.com</p>
+
+            <p>
+                <a href="https://github.com/" target="_blank">
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                <a href="https://linkedin.com/" target="_blank">
+                    LinkedIn
+                </a>
+            </p>
+
+            <form id="contact-form">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <p id="form-status"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    
+    <footer>
+
+        <p>©️ 2026 Anya. All Rights Reserved.</p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
